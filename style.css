@@ -68,6 +68,13 @@ section{
 .project-card:hover{
     transform:translateY(-10px);
 }
+.project-image{
+    width:100%;
+    max-width:350px;
+    border-radius:15px;
+    margin-top:20px;
+    margin-right:20px;
+}
 
 .skills{
     display:flex;
