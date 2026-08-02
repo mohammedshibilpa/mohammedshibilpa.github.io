@@ -214,3 +214,86 @@ footer{
         height:140px;
     }
 }
+/* ===========================
+   Certifications
+=========================== */
+
+.cert-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+gap:25px;
+
+margin-top:40px;
+
+}
+
+.cert-card{
+
+background:#202b3f;
+
+padding:25px;
+
+border-radius:18px;
+
+border-left:5px solid #38bdf8;
+
+transition:.3s;
+
+}
+
+.cert-card:hover{
+
+transform:translateY(-8px);
+
+box-shadow:0 15px 40px rgba(0,0,0,.35);
+
+}
+
+.cert-card h3{
+
+font-size:22px;
+
+margin-bottom:15px;
+
+color:white;
+
+}
+
+.cert-card p{
+
+color:#cbd5e1;
+
+margin-bottom:20px;
+
+}
+
+.cert-btn{
+
+display:inline-block;
+
+background:#38bdf8;
+
+padding:12px 24px;
+
+border-radius:10px;
+
+text-decoration:none;
+
+color:black;
+
+font-weight:bold;
+
+transition:.3s;
+
+}
+
+.cert-btn:hover{
+
+background:white;
+
+transform:scale(1.05);
+
+}
