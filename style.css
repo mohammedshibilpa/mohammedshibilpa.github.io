@@ -366,3 +366,15 @@ color:#d4d4d4;
 font-size:17px;
 
 }
+.about-card{
+    text-decoration:none;
+    color:white;
+}
+
+.about-card h3{
+    color:#38bdf8;
+}
+
+.about-card p{
+    color:white;
+}
